@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+/* My Resets */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* My Defaults */
+body {
+  font-style: normal;
+  line-height: normal;
+  background-color: #F1E8E6;;
+}
+
+button {
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+
+/* My Codes */
+article.card {
+  max-width: 30.125rem;
+  border-radius: 33px;
+  background: #FFF;
+}
+
+.background-top {
+  width: 481.6px;
+  height: 253.4px;
+  flex-shrink: 0;
+  border-radius: 35px 35px 0px 0px;
+  background: linear-gradient(180deg, #F55951 0.08%, #FF97CF 99.92%);
+}
+
+.background-top img {
+  padding: 26px 0 0 33px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 39px 0 37px;
+}
+
+.profile img {
+  z-index: 1;
+  transform: translate(0, -50%);
+}
+
+.profile .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: -75px;
+}
+
+.profile .content  img {
+  position: absolute;
+  left: -36px;
+  top: 19px;
+  z-index: 0;
+}
+
+.profile .content img + p {
+  color: #F55951;
+  text-align: center;
+  font-family: 'Orelega One', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  /* text-transform: capitalize; */
+  margin-bottom: 2.5rem;
+}
+
+.profile .content p + p {
+  color: #9D9D9D;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.09625rem;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.profile button {
+  color: #FFF;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.575rem;
+  font-weight: 700;
+  text-align: center;
+
+  max-width: 19.25rem;
+  border-radius: 3.125rem;
+  background: #F55951;
+  box-shadow: 0px 10px 28px -8px #F55951;
+  padding: 1.13rem 0 1.06rem 0;
+
+  align-self: stretch;
+  margin: 2px calc(50px + 1px);
+
+  transform: translate(0, 50%);
+
+}
